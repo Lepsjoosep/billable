@@ -1,18 +1,18 @@
+// src/test/java/ee/tak24/billable/TestcontainersConfiguration.java
 package ee.tak24.billable;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;
 import org.springframework.context.annotation.Bean;
 import org.testcontainers.postgresql.PostgreSQLContainer;
-import org.testcontainers.utility.DockerImageName;
 
+/** One PostgreSQL 17 container for the tests; Spring points the DataSource at it. */
 @TestConfiguration(proxyBeanMethods = false)
-class TestcontainersConfiguration {
+public class TestcontainersConfiguration {
 
-	@Bean
-	@ServiceConnection
-	PostgreSQLContainer postgresContainer() {
-		return new PostgreSQLContainer(DockerImageName.parse("postgres:latest"));
-	}
-
+  @Bean
+  @ServiceConnection
+  PostgreSQLContainer postgres() {
+    return new PostgreSQLContainer("postgres:17-alpine");
+  }
 }
