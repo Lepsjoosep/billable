@@ -6,7 +6,7 @@ The lesson numbers follow a common Spring Boot order. If your course uses anothe
 
 ## Lesson map
 
-1. [01 · Filters: Measure Every Request (Task 4)](tutorial/01-filters-measure-every-request.md): how a request travels, and your first filter.
+1. [01 · Filters: Measure Every Request (Task 4)](01-filters-measure-every-request.md): how a request travels, and your first filter.
 2. [02 · Controllers & Routes](tutorial/02-controllers-and-routes.md): URLs that answer with text or JSON.
 3. [03 · Beans & Dependency Injection](tutorial/03-beans-and-dependency-injection.md): controller, service and repository, connected by Spring.
 4. [04 · Settings & Profiles](tutorial/04-settings-and-profiles.md): change the app with dials, not code.
