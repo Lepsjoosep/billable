@@ -7,16 +7,16 @@ The lesson numbers follow a common Spring Boot order. If your course uses anothe
 ## Lesson map
 
 1. [01 · Filters: Measure Every Request (Task 4)](01-filters-measure-every-request.md): how a request travels, and your first filter.
-2. [02 · Controllers & Routes](tutorial/02-controllers-and-routes.md): URLs that answer with text or JSON.
-3. [03 · Beans & Dependency Injection](tutorial/03-beans-and-dependency-injection.md): controller, service and repository, connected by Spring.
-4. [04 · Settings & Profiles](tutorial/04-settings-and-profiles.md): change the app with dials, not code.
-5. [05 · Validation & Errors](tutorial/05-validation-and-errors.md): reject bad input and send clear errors.
-6. [06 · Data & Databases](tutorial/06-data-and-databases.md): save and find data with JPA.
-7. [07 · Web Pages with Thymeleaf](tutorial/07-web-pages-with-thymeleaf.md): web pages and forms.
-8. [08 · Filters, Interceptors & Aspects](tutorial/08-filters-interceptors-and-aspects.md): pick the right door for code that runs on many requests.
-9. [09 · Security](tutorial/09-security.md): logins, roles and protected URLs.
-10. [10 · Testing](tutorial/10-testing.md): tests that turn your checklist green.
-11. [11 · Build, Run & Ship](tutorial/11-build-run-and-ship.md): build the JAR, check health, hand in cleanly.
+2. [02 · Controllers & Routes](02-controllers-and-routes.md): URLs that answer with text or JSON.
+3. [03 · Beans & Dependency Injection](03-beans-and-dependency-injection.md): controller, service and repository, connected by Spring.
+4. [04 · Settings & Profiles](04-settings-and-profiles.md): change the app with dials, not code.
+5. [05 · Validation & Errors](05-validation-and-errors.md): reject bad input and send clear errors.
+6. [06 · Data & Databases](06-data-and-databases.md): save and find data with JPA.
+7. [07 · Web Pages with Thymeleaf](07-web-pages-with-thymeleaf.md): web pages and forms.
+8. [08 · Filters, Interceptors & Aspects](08-filters-interceptors-and-aspects.md): pick the right door for code that runs on many requests.
+9. [09 · Security](09-security.md): logins, roles and protected URLs.
+10. [10 · Testing](10-testing.md): tests that turn your checklist green.
+11. [11 · Build, Run & Ship](11-build-run-and-ship.md): build the JAR, check health, hand in cleanly.
 
 Quick lookup: [Cheat Sheet](cheat-sheet.md). Help links: [Sources & Help Pages](sources.md).
 
