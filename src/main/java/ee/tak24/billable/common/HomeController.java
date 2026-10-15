@@ -1,14 +1,13 @@
-// src/main/java/ee/tak24/billable/common/HomeController.java
+// src/main/java/ee/ta25/billable/common/HomeController.java
 package ee.tak24.billable.common;
 
 import java.time.LocalDate;
 import java.time.ZoneId;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@Controller 
+@Controller
 public class HomeController {
 
   private static final ZoneId TALLINN = ZoneId.of("Europe/Tallinn");
@@ -17,5 +16,10 @@ public class HomeController {
   public String home(Model model) {
     model.addAttribute("today", LocalDate.now(TALLINN));
     return "home";
+  }
+
+  @GetMapping("/about")
+  public String about() {
+    return "about";
   }
 }
