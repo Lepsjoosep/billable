@@ -12,11 +12,11 @@ public class HomeController {
 
   private static final ZoneId TALLINN = ZoneId.of("Europe/Tallinn");
 
+// src/main/java/ee/ta25/billable/common/HomeController.java — deliberately badly formatted (temporary)
   @GetMapping("/")
-  public String home(Model model) {
-    model.addAttribute("today", LocalDate.now(TALLINN));
-    return "home";
-  }
+  public String home(Model model){
+      model.addAttribute("today",LocalDate.now(TALLINN));
+    return "home";}
 
   @GetMapping("/about")
   public String about() {
