@@ -1,6 +1,3 @@
 package ee.tak24.billable;
 
-
-public class RequestTimingFilter {
-    
-}
+public class RequestTimingFilter {}
